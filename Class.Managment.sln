@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Account.API", "Account.API\Account.API.csproj", "{96987CE0-2EB0-4C7C-8307-3FEC7502B964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account.API", "Account.API\Account.API.csproj", "{96987CE0-2EB0-4C7C-8307-3FEC7502B964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sciences.API", "Sciences.API\Sciences.API.csproj", "{6BDECD74-CE7D-49FE-972E-1D7EAE38E543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sciences.API", "Sciences.API\Sciences.API.csproj", "{6BDECD74-CE7D-49FE-972E-1D7EAE38E543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student.API", "Student.API\Student.API.csproj", "{D9DBAC94-D1D2-4B39-BCBA-24F65B6A7B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student.API", "Student.API\Student.API.csproj", "{D9DBAC94-D1D2-4B39-BCBA-24F65B6A7B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{0F1159F0-858E-45F9-B684-2E587F15C4AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{0F1159F0-858E-45F9-B684-2E587F15C4AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{885F2789-F615-4503-BE99-D23C9977BAFC}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
